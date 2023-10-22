@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Treks-Kalsubai</title>
+
+    <link rel="stylesheet" href="/Mini Project/home.css">
+    <link rel="stylesheet" href="/Mini Project/trek.css">
+ 
+	<style> 
+		body {
+  				background-image: url("http://3.bp.blogspot.com/-FrStg0FVtXE/U_RiLWJHHHI/AAAAAAAAKG0/rGgIaYiadLU/s1600/DSC_0973_1.JPG");
+  				background-repeat: no-repeat;
+ 			    background-color: #cccccc;
+ 			    background-size: cover;
+ 				  background-attachment: fixed;
+	
+			 }
+</style>
+</head>
+
+<body>
+    <header>
+		
+        <h1> KALSUBAI </h1>
+        
+            </header>
+        
+        
+            <div class="topnavcol">
+
+                <nav class="topnavl">
+                        <a href="Home.php">HOME</a>
+                        <a href="/Mini Project/Home.php/#trek">TREKS</a> 
+                        <a href="products.html">PRODUCTS</a>
+                </nav>		
+            
+                <nav class="topnavr">
+                        
+                  <a href="\Mini Project\myprofile.php">MY PROFILE</a>
+                  <a href="signout.php">SIGN OUT</a> 
+                
+                </nav>
+            
+            </div>
+
+        <div>
+            <h2 style="text-align: center;">About Kalsubai</h2>
+            <p style="margin-bottom: 4%;width: 75%; word-wrap:break-word; text-align: center; margin-left: 12%; font-size: large;">Kalsubai at 5400ft is the highest peak of Maharashtra and this is the main reason for its popularity and difficulty. It is located in the Kalsubai mountain range which is an offshoot range from the main Sahyadri range. Surrounded by lush green forests and fields, the trekking route towards Maharashtra's Highest Peak is a surreal experience for all nature lovers and trek enthusiasts. Challenging yet fun-filled, trek towards the highest summit will test your patience and offer an amazing panoramic view of several more mountain ranges</p>
+        </div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="http://www.weekendthrill.com/wp-content/uploads/2016/08/Kalsubai-Trek-2.jpg" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="https://www.smallstepsadventures.com/images/events/eventgallery/zxxhrqmd.ymu.jpg" style="width:100%"; height="70%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="https://th.bing.com/th/id/OIP.y-suX0ONwauMJpZ8mzwMXAHaFI?pid=Api&w=1000&h=692&rs=1" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+
+        <div>
+            <a href="\Mini Project\bookkalsubai.html">
+            <button id="book">Book now</button></a>
+        </div>
+
+        <div>
+            <a href="\Mini Project\kalsubaiproducts.html">
+                <button id="buy" >Buy required products</button></a> 
+        </div>
+
+</body>
+
+</html>

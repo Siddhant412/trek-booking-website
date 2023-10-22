@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contact Us</title>
+	<link rel="stylesheet" href="/Mini Project/home.css">
+
+<style> 
+		body {
+  				background-image: url("http://wallpapercave.com/wp/wp1903471.jpg");
+  				background-repeat: no-repeat;
+ 			    background-color: #cccccc;
+ 			    background-size: cover;
+ 				background-attachment: fixed;
+	
+			 }
+</style>
+
+</head>
+<body>
+	<div class="topnavcol">
+
+		<nav class="topnavl">
+				<a href="Home.php">HOME</a>
+				<a href="/Mini Project/Home.php/#trek">TREKS</a> 
+				<a href="products.html">PRODUCTS</a>
+		</nav>		
+	
+		<nav class="topnavr">
+				
+		  <a href="\Mini Project\myprofile.php">MY PROFILE</a>
+		  <a href="signout.php">SIGN OUT</a> 
+		
+		</nav>
+	
+	</div>
+
+
+
+<div>
+
+	<br>
+<section>
+    <h2 align="center" id="title"> <strong > <font color="#000000" face="Sylfaen" size ="6px"> Contact US </font></strong></h2>    
+
+	<h3 align="center"> <em> <font color="#000000" face="Sylfaen" size="5px">If you have any questions at all about anything - just get in touch, we would love to hear from you.</font></em> </h3>
+</section>		
+		<br>
+		<br>
+<div id="contactcss">
+<section>
+	<form action="Contacted.php" method="POST">
+ 		 
+<h2 ><strong><font color="#000000" face="Lucida Bright , Didot" size ="5px">Fill  The Following Details: </font>  </strong>  </h2>
+
+		<label for="Name"> <b><font color = "#00000" face="Times Bold" size="4px"> Name: </font> </b> </label>	
+			<br>
+		<input type="text" name="Name" placeholder="Your Name" required>
+	 		<br>
+			<br>
+		<label for="Email" > <b><font color = "#00000" face="Times Bold" size="4px"> Email: </font> </b></label>
+            <br>
+    	<input type="email" name="Email" placeholder="Your Email" required>  
+            <br>
+            <br>
+		<label for="Number"><b> <font color = "#00000" face="Times Bold" size="4px"> Phone Number: </font> </b></label>	
+			<br>
+		<input type="tel" name="Number" placeholder="Your Number" pattern="[1-9]{1}[0-9]{9}"> 
+			<br>
+			<br>
+		<label for="Message"><b> <font color = "#00000" face="Times Bold" size="4px"> Message: </font> </b></label>
+		<br>
+		<textarea rows="7" cols="50" name="Message" > </textarea>
+		<br>
+		<br>
+  		<input type="reset" value="Reset">
+			<br>
+			<br>
+		<a href="Contacted.php">
+		<input type="Submit" name="button" value="Contact Us">
+		</a>
+	</form>
+</section>
+</div>	
+</body>
+</html>

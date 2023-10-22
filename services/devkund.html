@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Treks-Devkund</title>
+
+    <link rel="stylesheet" href="/Mini Project/home.css">
+    <link rel="stylesheet" href="/Mini Project/trek.css">
+ 
+	<style> 
+		body {
+  				background-image: url("https://alpineclimbers.in/img/gallery/devkund/04-1.jpg");
+  				background-repeat: no-repeat;
+ 			    background-color: #cccccc;
+ 			    background-size: cover;
+ 				  background-attachment: fixed;
+	
+			 }
+</style>
+</head>
+
+<body>
+    <header>
+		
+        <h1> DEVKUND </h1>
+        
+            </header>
+        
+        
+            <div class="topnavcol">
+
+                <nav class="topnavl">
+                        <a href="Home.php">HOME</a>
+                        <a href="/Mini Project/Home.php/#trek">TREKS</a> 
+                        <a href="products.html">PRODUCTS</a>
+                </nav>		
+            
+                <nav class="topnavr">
+                        
+                  <a href="\Mini Project\myprofile.php">MY PROFILE</a>
+                  <a href="signout.php">SIGN OUT</a> 
+                
+                </nav>
+            
+            </div>
+
+        <div>
+            <h2 style="text-align: center;">About Devkund</h2>
+            <p style="margin-bottom: 4%;width: 75%; word-wrap:break-word; text-align: center; margin-left: 12%; font-size: large;">There are very few perennial waterfalls in Maharashtra like Devkund Waterfall. The forest around the waterfall is beautifully green and dense with many species of animals and birds. Devkund keeps the spirit of monsoon alive. Your trek will lead you through many unexplored trails, you will be navigating slippery rocks trek would contain medium to easy obstacles along the way. Once you reach Devkund Waterfall you will be overwhelmed with its beauty and filled with joy.
+                The white water cascaded down a series of rocky outcrops, giving the effect of many waterfalls rather than just one. Then it flowed on its way, nonchalant as if nothing had occurred.</p>
+        </div>
+
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="https://2.bp.blogspot.com/-O6DxobBJ8HI/WE_1JLdXmCI/AAAAAAAAKDo/C1ErsTMzEI4OmZI7wAZhZrJ0JILv6DH4QCLcB/s1600/IMG_4578.JPG" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="http://adventures365.in/blog/wp-content/uploads/2016/11/devkund-waterfall-trek.jpg" style="width:100%"; height="70%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="https://dmgupcwbwy0wl.cloudfront.net/system/images/000/228/502/539d4ed6956b6d2cf561b5b6cf01dc13/x600gt/Devkund-Waterfall-Trek-6.jpg?1557757031" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+
+        <div>
+            <a href="\Mini Project\bookdevkund.html">
+            <button id="book">Book now</button></a>
+        </div>
+
+        <div>
+            <a href="\Mini Project\devkundproducts.html">
+                <button id="buy" >Buy required products</button></a>
+            
+        </div>
+</body>
+
+</html>

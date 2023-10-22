@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Treks-Rajmachi</title>
+
+    <link rel="stylesheet" href="/Mini Project/home.css">
+    <link rel="stylesheet" href="/Mini Project/trek.css">
+ 
+	<style> 
+		body {
+  				background-image: url("https://images.thrillophilia.com/image/upload/s--G8C8OPdQ--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/031/420/original/1467881964_267404092012278.jpg.jpg?1467881964");
+  				background-repeat: no-repeat;
+ 			    background-color: #cccccc;
+ 			    background-size: cover;
+ 				  background-attachment: fixed;
+	
+			 }
+</style>
+</head>
+
+<body>
+    <header>
+		
+        <h1> RAJMACHI </h1>
+        
+            </header>
+        
+        
+            <div class="topnavcol">
+
+                <nav class="topnavl">
+                        <a href="Home.php">HOME</a>
+                        <a href="/Mini Project/Home.php/#trek">TREKS</a> 
+                        <a href="products.html">PRODUCTS</a>
+                </nav>		
+            
+                <nav class="topnavr">
+                        
+                  <a href="\Mini Project\myprofile.php">MY PROFILE</a>
+                  <a href="signout.php">SIGN OUT</a> 
+                
+                </nav>
+            
+            </div>
+
+        <div>
+            <h2 style="text-align: center;">About Rajmachi</h2>
+            <p style="margin-bottom: 4%;width: 75%; word-wrap:break-word; text-align: center; margin-left: 12%; font-size: large;">The Rajmachi trek is a long trek through dense foliage and enroute the trek one would come across many seasonal waterfalls depending on the route taken. All the trek routes converge at Udhivade the base village of Rajmachi. To climb the Rajmachi twin forts of Shrivardhan and Manoranjan it would take another half an hour from Udhivade village. Rajmachi Fort near Karjat has many caves used by trekkers for night halt. Rajmachi Fort is located strategically overlooking Borghat a historical trade route in Sahyadri Mountains. Popular among trekkers of India as one of the best trekking places in Maharashtra.</p>
+        </div>
+
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="http://1.bp.blogspot.com/-zzyoDfGI7oU/VNorl8zgiLI/AAAAAAAAJlI/eezqB2XbRhY/s1600/Rajmachi-fort-3.jpg" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="http://1.bp.blogspot.com/-Y7-xjonx2G8/VNorjLflATI/AAAAAAAAJk0/GUN94TMGYfM/s1600/Rajmachi-fort-1.jpg" style="width:100%"; height="70%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="https://th.bing.com/th/id/OIP.y-suX0ONwauMJpZ8mzwMXAHaFI?pid=Api&w=1000&h=692&rs=1" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+
+        <div>
+            <a href="\Mini Project\bookrajmachi.html">
+            <button id="book">Book now</button></a>
+        </div>
+
+        <div>
+            <a href="\Mini Project\rajmachiproducts.html">
+                <button id="buy" >Buy required products</button></a>         
+        </div>
+
+</body>
+
+</html>
